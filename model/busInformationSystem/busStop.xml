@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:smartBus="http://www.semanticweb.org/wise-iot/ontologies/2017/1/smartBus.owl/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <smartBus:busStop rdf:about="http://www.semanticweb.org/wise-iot/ontologies/2017/1/smartBus.owl#bussanBusInfo">
+	<smartBus:hasId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urn:entity:busan:transport:bus:busId:[busStopId]</smartBus:hasId>
+	<smartBus:hasRefBuses rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ "urn:entity:busan:transport:bus:bus:[busId]" ]</smartBus:hasRefBuses>
+	<smartBus:hasShortID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11161</smartBus:hasShortID>
+	<smartBus:hasBusStopCount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[1,2]</smartBus:hasBusStopCount>
+	<smartBus:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">city hall</smartBus:hasName>
+	<smartBus:hasLocation>
+		<smartBus:hasCoordinates>
+			<smartBus:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.372</smartBus:hasLongitude>
+			<smartBus:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.363</smartBus:hasLatitude>
+		</smartBus:hasCoordinates>
+    </smartBus:hasLocation>
+	<smartBus:hasAddress>
+		<smartBus:PostalAddress>
+			<smartBus:hasStreetAddress>7 S. Broadway</smartBus:hasStreetAddress>
+			<smartBus:hasAddressLocality>Denver</smartBus:hasAddressLocality>
+			<smartBus:hasAddressRegion>CO</smartBus:hasAddressRegion>
+			<smartBus:hasPostalCode>80209</smartBus:hasPostalCode>
+         </smartBus:PostalAddress>
+	</smartBus:hasAddress>
+	<smartBus:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</smartBus:hasDirection>
+	<smartBus:hasRefBusLines rdf:datatype="http://www.w3.org/2001/XMLSchema#string">["urn:entity:busan:transport:bus:busStop:[busLineId]"]</smartBus:hasRefBusLines>
+	<smartBus:hasDateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2017-04-18T02:23:30Z</smartBus:hasDateModified>
+  </smartBus:busStop>
+</rdf:RDF>

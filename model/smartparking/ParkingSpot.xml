@@ -1,0 +1,26 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:park="http://www.semanticweb.org/wise-iot/ontologies/2017/1/parkingOntology.owl"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <park:ParkingSpot rdf:about="http://www.semanticweb.org/wise-iot/ontologies/2017/1/parkingOntology.owl#parkingSpot1">
+	<park:hasId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abcded</park:hasId>
+	<park:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ParkingSpot</park:hasType>
+	<park:hasDateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2017-04-18T02:23:30Z</park:hasDateModified>
+	<park:hasCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">onstreet</park:hasCategory>
+	<park:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parkingSpot1</park:hasName>
+	<park:hasRefParkingSite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spot1</park:hasRefParkingSite>
+    <park:hasLocation>
+		<park:hasLocationType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Point</park:hasLocationType>
+		<park:hasCoordinates>
+			<park:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.160729</park:hasLongitude>
+			<park:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.404143</park:hasLatitude>
+		</park:hasCoordinates>
+    </park:hasLocation>
+    <park:hasStatus>
+		<park:hasStatusValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free</park:hasStatusValue>
+		<park:hasStatusTimeStamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-18T02:23:30Z</park:hasStatusTimeStamp>
+    </park:hasStatus>
+  </park:ParkingSpot>
+</rdf:RDF>

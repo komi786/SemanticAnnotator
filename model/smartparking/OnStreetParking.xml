@@ -1,0 +1,52 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:park="http://www.semanticweb.org/wise-iot/ontologies/2017/1/parkingOntology.owl"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <park:OnStreetParking rdf:about="http://www.semanticweb.org/wise-iot/ontologies/2017/1/parkingOntology.owl#ketiLobbyPark">
+	<park:hasId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">siteA</park:hasId>
+	<park:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OnStreetParking</park:hasType>
+	<park:hasDateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2017-04-18T02:23:30Z</park:hasDateModified>
+	<park:hasCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shortTerm</park:hasCategory>
+	<park:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parkingSiteA</park:hasName>
+	<park:hasAreBordersMarked rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</park:hasAreBordersMarked>
+	<park:hasAllowedVehicleType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">car</park:hasAllowedVehicleType>
+	<park:hasRequiredPermit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fairPermit</park:hasRequiredPermit>
+	<park:hasChargeType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flat</park:hasChargeType>
+ 	<park:hasTotalSpotNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</park:hasTotalSpotNumber>
+	<park:hasOccupancyDetectionType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balancing</park:hasOccupancyDetectionType>
+	<park:hasRefParkingSpot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myParkingSpot1</park:hasRefParkingSpot>
+ 	<park:hasAvailableSpotNumber>
+		<park:hasValueOfAvailableSpotNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</park:hasValueOfAvailableSpotNumber>
+		<park:hasTimeStampOfAvailableSpotNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2017-04-18T02:23:30Z</park:hasTimeStampOfAvailableSpotNumber>
+	</park:hasAvailableSpotNumber>
+	<park:hasPermiteActiveHours>
+		<park:hasPropertyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blueZonePermit</park:hasPropertyName>
+		<park:hasPropertyValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mo, Tu, We, Th, Fr, Sa 09:00-20:00</park:hasPropertyValue>
+	</park:hasPermiteActiveHours>
+ 	<park:hasPermiteActiveHours>
+		<park:hasPropertyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">greenZonePermit</park:hasPropertyName>
+		<park:hasPropertyValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tu, We, Th, Fr, Sa 09:00-20:00</park:hasPropertyValue>
+	</park:hasPermiteActiveHours>	
+    <park:hasLocation>
+		<park:hasLocationType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polygon</park:hasLocationType>
+		<park:hasCoordinates>
+			<park:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.160729</park:hasLongitude>
+			<park:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.404143</park:hasLatitude>
+		</park:hasCoordinates>
+		<park:hasCoordinates>
+			<park:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.160728</park:hasLongitude>
+			<park:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.404142</park:hasLatitude>
+		</park:hasCoordinates>
+		<park:hasCoordinates>
+			<park:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.160730</park:hasLongitude>
+			<park:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.404144</park:hasLatitude>
+		</park:hasCoordinates>
+		<park:hasCoordinates>
+			<park:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.160727</park:hasLongitude>
+			<park:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.404140</park:hasLatitude>
+		</park:hasCoordinates>
+    </park:hasLocation>	
+  </park:OnStreetParking>
+</rdf:RDF>

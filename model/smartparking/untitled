@@ -1,0 +1,8 @@
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX park:<http://www.semanticweb.org/wise-iot/ontologies/2017/1/parkingOntology.owl>
+SELECT ?spot where
+{
+	?spot park:ParkingSpot ?parkingSpot.
+	?parkingSpot park:hasStatus ?status.
+	?status hasStatusValue "free"^^<http://www.w3.org/2001/XMLSchema#string>.
+}

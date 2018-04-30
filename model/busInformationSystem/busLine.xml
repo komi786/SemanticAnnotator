@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:smartBus="http://www.semanticweb.org/wise-iot/ontologies/2017/1/smartBus.owl/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <smartBus:busLine rdf:about="http://www.semanticweb.org/wise-iot/ontologies/2017/1/smartBus.owl#bussanBusInfo">
+	<smartBus:hasId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urn:entity:busan:transport:bus:busId:[busLineId]</smartBus:hasId>
+	<smartBus:hasRefBusStops rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ "urn:entity:busan:transport:bus:busStop:[busStopId]" ]</smartBus:hasRefBusStops>
+	<smartBus:hasLocalID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11161</smartBus:hasLocalID>
+	<smartBus:hasShortID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11161</smartBus:hasShortID>
+	<smartBus:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PENACASTILLO – PLAZA DE ITALIA</smartBus:hasName>
+	<smartBus:hasRefStartBusStop rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ "urn:entity:busan:transport:bus:busStop:[busStopId]" ]</smartBus:hasRefStartBusStop>
+	<smartBus:hasRefEndBusStop rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ "urn:entity:busan:transport:bus:busStop:[busStopId]" ]</smartBus:hasRefEndBusStop>
+	<smartBus:hasStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-05T08:15:30-05:09</smartBus:hasStartTime>
+	<smartBus:hasEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-05T08:15:30-05:09</smartBus:hasEndTime>
+	<smartBus:hasIntervalNorm rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3Y6M4DT12H30M5S</smartBus:hasIntervalNorm>
+	<smartBus:hasIntervalHoli rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3Y6M4DT12H30M5S</smartBus:hasIntervalHoli>
+	<smartBus:hasIntervalPeak rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3Y6M4DT12H30M5S</smartBus:hasIntervalPeak>
+	<smartBus:hasDateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2017-04-18T02:23:30Z</smartBus:hasDateModified>	
+  </smartBus:busLine>
+</rdf:RDF>
