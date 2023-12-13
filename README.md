@@ -15,7 +15,7 @@ http://localhost:3000/annotateResource/{csebase}/{target_resourceName}
  -It doesn't provide annotation of non subscribed resources
  -It only subscribed those resources created within running period of annotator. Such as it can subscribed iotParking container and sub container resource but does not subscribe all parkingSpot instance as well. For each resource subscription use single resource query of annotator as mentioned below.
  
-#######################################################
+##
 SmartParking
 For Single Resource Annotation
 1. For Subscription and annotation of iotParking and all level sub children resources
