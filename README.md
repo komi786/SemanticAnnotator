@@ -6,7 +6,7 @@ Run commmand: node annotator
 Ip Configuration :
 -> open the configFil and specify corresponding Mobius Server and MQTT broker IP address.
 -> semantic Descriptor resource name can be changed in "smd" variable.
-#######################################################
+##
 Features:
 -> Smart Parking and Bus Information Data annotation
 Example:
