@@ -29,6 +29,6 @@ busLine,busEstimation and busStop http://localhost:3000/annotateResource/Mobius/
 ---Resource will be subscribed in MQTT and <subscribeToresource> is created (if deosnot exit already)
 ---on recieving notification regarding new content Instance value, annotation will be added and update automatically.
 
-#######################################################
+##
 
 
